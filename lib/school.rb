@@ -1,10 +1,12 @@
 # code here!
-class School
+class School    #open class
+
+attr_accessor :name 
   
-  roster = {}
+  ROSTER = {}  #create class constant in all caps 
   
   
-  def initialize(name)
+  def initialize(name)  
     @name = name
   end
   
