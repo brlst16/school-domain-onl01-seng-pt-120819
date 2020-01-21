@@ -20,7 +20,12 @@ attr_accessor :name, :roster   #make a reader and writer for name and roster var
     end
     
     def sort 
-      @roster 
+      sorted = {}
+      @roster.each do |x, y|
+        sorted[x] = y.sorted
+      end
+      sorted
+      
     end
     
   end 
