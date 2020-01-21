@@ -12,8 +12,8 @@ attr_accessor :name, :roster   #make a reader and writer for name and roster var
   end
   
   def add_student(student, grade)
-    roster[grade] = []
-    roster[grade] << student 
+    roster[grade] = []  #add a key of grade to roster hash and set equal to empty array 
+    roster[grade] << student  #shovel a student value into array. the student value is attached to the grade key
     
   end 
   
