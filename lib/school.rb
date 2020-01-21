@@ -20,11 +20,11 @@ attr_accessor :name, :roster   #make a reader and writer for name and roster var
     end
     
     def sort 
-      sorted = {}
+      nu_hash = {}
       roster.each do |x, y|
-        sorted[x] = y.sort
+        nu_hash[x] = y.sort
       end
-      sort
+      nu_hash
       
     end
     
