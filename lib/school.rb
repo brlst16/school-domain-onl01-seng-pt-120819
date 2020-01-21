@@ -13,7 +13,7 @@ attr_accessor :name, :roster   #make a reader and writer for name and roster var
   
   def add_student(name, grade)
     roster["name"] = []
-    roster
+    roster[]
     
   end 
   
