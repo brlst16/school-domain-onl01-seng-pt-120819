@@ -19,6 +19,10 @@ attr_accessor :name, :roster   #make a reader and writer for name and roster var
       roster[grade]
     end
     
+    def sort 
+      @roster 
+    end
+    
   end 
   
 end
