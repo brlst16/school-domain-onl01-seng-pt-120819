@@ -7,8 +7,8 @@ attr_accessor :name
   
   
   def initialize(name)  
-    @name = na
-  meend
+  
+  end
   
   
 end
