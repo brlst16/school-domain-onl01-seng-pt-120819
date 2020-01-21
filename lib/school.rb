@@ -11,5 +11,9 @@ attr_accessor :name, :roster   #make a reader and writer for name and roster var
   @roster ={}         #we're initializing with roster so add an instance variable using @ to the initialize method--not a class constant
   end
   
+  def add_student(student_name, grade)
+    
+    
+  end 
   
 end
