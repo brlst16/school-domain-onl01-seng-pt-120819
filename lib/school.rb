@@ -16,7 +16,7 @@ attr_accessor :name, :roster   #make a reader and writer for name and roster var
     roster[grade] << student  #shovel a student value into array. the student value is attached to the grade key
     
     def grade(grade)
-      roster 
+      roster[grade]
     end
     
   end 
